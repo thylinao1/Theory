@@ -34,10 +34,11 @@ Key outputs: coefficients, t-statistics, R-squared, sum-of-squared residuals (SS
 ---
 
 ## 4. Efficient Frontier (PyPortfolioOpt)
+a set of optimal investment portfolios that offer the highest expected return for a specific level of risk, or the lowest risk for a given return
 
 **Expected Returns:** `mean_historical_return(prices, frequency=252)`  
 **Covariance Shrinkage:** `CovarianceShrinkage(prices).ledoit_wolf()` — reduces extreme event overweighting
-- a set of optimal investment portfolios that offer the highest expected return for a specific level of risk, or the lowest risk for a given return
+
 
 **Critical Line Algorithm:**
 ```python
