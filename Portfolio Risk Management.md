@@ -810,6 +810,4 @@ print(f"Parametric VaR(99): {round(100*var_99, 2)}%")
 
 7. **Monte Carlo simulations** allow comprehensive risk analysis by generating thousands of possible scenarios.
 
----
 
-*Notes compiled from DataCamp's Portfolio Risk Management in Python course*
