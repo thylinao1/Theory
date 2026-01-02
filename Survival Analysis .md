@@ -10,7 +10,7 @@ Survival analysis (also called time-to-event analysis, duration analysis, or rel
 - **Economics**: Duration of unemployment, time until market entry
 - **Social Sciences**: Time until marriage, divorce, or job transition
 
-The fundamental question survival analysis answers is: *What is the probability that an individual survives (or an event does not occur) beyond time $t$?*
+The fundamental question survival analysis answers is: *What is the probability that an individual survives (or an event does not occur) beyond time t?*
 
 ---
 
@@ -546,12 +546,4 @@ $$h(t \mid \mathbf{x}) = h_0(t)\exp(\boldsymbol{\beta}^T\mathbf{x})$$
 
 $$\text{Hazard Ratio} = \exp(\beta_j)$$
 
----
 
-## References
-
-1. Kleinbaum, D. G., & Klein, M. (2012). *Survival Analysis: A Self-Learning Text* (3rd ed.). Springer.
-2. Hosmer, D. W., Lemeshow, S., & May, S. (2008). *Applied Survival Analysis* (2nd ed.). Wiley.
-3. Therneau, T. M., & Grambsch, P. M. (2000). *Modeling Survival Data: Extending the Cox Model*. Springer.
-4. Cox, D. R. (1972). Regression Models and Life-Tables. *Journal of the Royal Statistical Society: Series B*, 34(2), 187–220.
-5. Kaplan, E. L., & Meier, P. (1958). Nonparametric Estimation from Incomplete Observations. *Journal of the American Statistical Association*, 53(282), 457–481.
