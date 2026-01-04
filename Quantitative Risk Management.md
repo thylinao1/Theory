@@ -128,7 +128,7 @@ EVT focuses on the tail behavior of distributions. The **block maxima** approach
 
 The GEV distribution has CDF:
 
-$$F(x; \xi, \mu, \sigma) = \exp\left\{-\left[1 + \xi\left(\frac{x-\mu}{\sigma}\right)\right]^{-1/\xi}\right\}$$
+$$F(x; \xi, \mu, \sigma) = \exp\left(-\left[1 + \xi\left(\frac{x-\mu}{\sigma}\right)\right]^{-1/\xi}\right)$$
 
 where μ is location, σ is scale, and ξ is the shape parameter. The shape parameter determines tail behavior: ξ > 0 (Fréchet) indicates heavy tails, ξ = 0 (Gumbel) indicates light tails, and ξ < 0 (Weibull) indicates bounded tails. Financial data typically exhibits ξ > 0.
 
