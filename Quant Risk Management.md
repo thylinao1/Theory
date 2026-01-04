@@ -1,4 +1,4 @@
-# Quantitative Risk Management in Python — Concise Notes
+# Quantitative Risk Management in Python 
 
 ## 1. Portfolio Returns & Volatility
 
