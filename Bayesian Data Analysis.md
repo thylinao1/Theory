@@ -593,6 +593,4 @@ For symmetric proposals: $P(\text{accept}) = \min\left(1, \frac{\pi(\theta^*)}{\
 - **Bayesian Data Analysis (Gelman et al.):** Comprehensive graduate-level reference
 - **Statistical Rethinking (Richard McElreath):** Excellent introduction with R/Stan code
 
----
 
-*Notes compiled from DataCamp's Bayesian Data Analysis in Python course, with additional content on advanced techniques and finance applications.*
