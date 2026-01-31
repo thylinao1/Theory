@@ -3371,7 +3371,3 @@ $$
 7. **Always visualize** — mathematics can hide data pathologies
 
 ---
-
-> **Congratulations!**
->
-> You now possess the mathematical foundation to understand how machine learning algorithms work at a deep level. The concepts of gradients, optimization, and function approximation appear throughout deep learning, and this calculus toolkit will serve you well as you dive deeper into the field.
