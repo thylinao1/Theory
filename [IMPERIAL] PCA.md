@@ -834,7 +834,7 @@ Note: A plane that doesn't pass through the origin is **not** a subspace!
 A set of vectors $\mathcal{A} = \{\mathbf{x}_1, \ldots, \mathbf{x}_k\}$ **generates** (or **spans**) a vector space $V$ if every vector in $V$ can be written as a linear combination:
 
 $$
-V = \text{span}(\mathcal{A}) = \left\{ \sum_{i=1}^{k} \lambda_i \mathbf{x}_i : \lambda_i \in \mathbb{R} \right\}
+V = \text{span}(\mathcal{A}) = \lbrace \sum_{i=1}^{k} \lambda_i \mathbf{x}_i : \lambda_i \in \mathbb{R} \rbrace
 $$
 
 ### Linear Independence
