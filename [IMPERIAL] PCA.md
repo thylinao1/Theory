@@ -1061,7 +1061,7 @@ $$
 
 ### Definition
 
-The **projection matrix** $\mathbf{P}_\pi$ satisfies $\pi_U(\mathbf{x}) = \mathbf{P}_\pi \mathbf{x}$ for any $\mathbf{x}$:
+The **projection matrix** $`\mathbf{P}_\pi`$ satisfies $`\pi_U(\mathbf{x}) = \mathbf{P}_\pi \mathbf{x}`$ for any $\mathbf{x}$:
 
 $$
 \mathbf{P}_\pi = \mathbf{B} (\mathbf{B}^T \mathbf{B})^{-1} \mathbf{B}^T
