@@ -188,8 +188,7 @@ Consider $`n`$ independent exponential random variables $`X_1, \ldots, X_n`$ wit
 
 Suppose a Poisson process has been running for a long time. You arrive at some time $`t^*`$ and measure the length of the interarrival interval you land in. Let $`U`$ be the time of the last arrival before $`t^*`$ and $`V`$ the time of the next arrival after $`t^*`$.
 
-By memorylessness, $V - t^{*}$ is Exponential($\lambda$), independent of the past. 
-The elapsed time $t^{*} - U$ is also Exponential($\lambda$) by time-reversal symmetry. Therefore:
+By memorylessness, $V - t^{*}$ is Exponential($\lambda$), independent of the past. The elapsed time $t^{*} - U$ is also Exponential($\lambda$) by time-reversal symmetry. Therefore:
 
 $$
 E[V - U] = E[V - t^{*}] + E[t^{*} - U] = \frac{1}{\lambda} + \frac{1}{\lambda} = \frac{2}{\lambda}
