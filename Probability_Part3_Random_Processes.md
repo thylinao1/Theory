@@ -190,7 +190,9 @@ Suppose a Poisson process has been running for a long time. You arrive at some t
 
 By memorylessness, $`V - t^*`$ is Exponential($`\lambda`$), independent of the past. The elapsed time $`t^* - U`$ is also Exponential($`\lambda`$) by time-reversal symmetry. Therefore:
 
-$$E[V - U] = E[V - t^*] + E[t^* - U] = \frac{1}{\lambda} + \frac{1}{\lambda} = \frac{2}{\lambda}$$
+$$
+E[V - U] = E[V - t^*] + E[t^* - U] = \frac{1}{\lambda} + \frac{1}{\lambda} = \frac{2}{\lambda}
+$$
 
 The interarrival interval you observe has expected length $`2/\lambda`$, which is twice the expected interarrival time $`1/\lambda`$. This is the **inspection paradox** (or random incidence): you are more likely to land in a longer interval simply because longer intervals occupy more of the time axis.
 
