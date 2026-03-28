@@ -600,7 +600,7 @@ $$\left[\hat{\Theta}_n - \frac{1.96\sigma}{\sqrt{n}}, \;\; \hat{\Theta}_n + \fra
 **Maximum Likelihood estimator:**
 
 $$
-\hat{\theta}_{\text{ML}} = \operatorname{argmax}_\theta \, p_X(x; \theta)
+\hat{\theta}_{\text{ML}} = \underset{\theta}{\text{argmax}} \, p_X(x; \theta)
 $$
 
 **MSE decomposition (classical):**\
