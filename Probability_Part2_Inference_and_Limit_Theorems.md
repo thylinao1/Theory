@@ -579,8 +579,11 @@ $$E[\Theta \mid X = x] = \frac{\sum_{i=0}^{n} x_i/\sigma_i^2}{\sum_{i=0}^{n} 1/\
 **LMS estimator:**\
 $$\hat{\Theta}_{\text{LMS}} = E[\Theta \mid X], \qquad \text{MSE} = E[\text{var}(\Theta \mid X)]$$
 
-**LLMS estimator:**\
-$$\hat{\Theta}_{\text{LLMS}} = E[\Theta] + \rho \frac{\sigma_\Theta}{\sigma_X}(X - E[X]), \qquad \text{MSE} = (1 - \rho^2)\,\text{var}(\Theta)$$
+**LLMS estimator:**
+
+$$
+\hat{\Theta}_{\text{LLMS}} = E[\Theta] + \rho \frac{\sigma_\Theta}{\sigma_X}(X - E[X]), \qquad \text{MSE} = (1 - \rho^2)\,\text{var}(\Theta)
+$$
 
 **Markov inequality:**\
 $$P(X \ge a) \le \frac{E[X]}{a} \quad (X \ge 0, \; a > 0)$$
