@@ -488,7 +488,7 @@ $$\text{MSE} = E[(\hat{\Theta} - \theta)^2] = \text{var}(\hat{\Theta}) + (\text{
 
 For the sample mean, $`\text{bias} = 0`$ and $`\text{var}(\hat{\Theta}_n) = \sigma^2/n`$, so $`\text{MSE} = \sigma^2/n`$.
 
-The quantity $`\sqrt{\text{var}(\hat{\Theta})}$` is called the **standard error** of the estimator.
+The quantity $`\sqrt{\text{var}(\hat{\Theta})}`$ is called the **standard error** of the estimator.
 
 ### 7.3 Confidence Intervals
 
@@ -597,8 +597,11 @@ $$Z_n = \frac{S_n - n\mu}{\sigma\sqrt{n}} \xrightarrow{d} N(0, 1)$$
 **95% Confidence Interval for the mean:**\
 $$\left[\hat{\Theta}_n - \frac{1.96\sigma}{\sqrt{n}}, \;\; \hat{\Theta}_n + \frac{1.96\sigma}{\sqrt{n}}\right]$$
 
-**Maximum Likelihood estimator:**\
-$$\hat{\theta}_{\text{ML}} = \arg\max_\theta \, p_X(x; \theta)$$
+**Maximum Likelihood estimator:**
+
+$$
+\hat{\theta}_{\text{ML}} = \operatorname{argmax}_\theta \, p_X(x; \theta)
+$$
 
 **MSE decomposition (classical):**\
 $$\text{MSE} = \text{var}(\hat{\Theta}) + (\text{bias})^2$$
